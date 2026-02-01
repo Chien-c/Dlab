@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/Users/User/Desktop/verilog/lab1_113550056/lab1_113550056.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+C:/Users/User/Desktop/verilog/lab1_113550056/lab1_113550056.srcs/sim_1/new/FullAdder_tb.v,1757657906,verilog,,,,FullAdder_tb,,,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Desktop/verilog/lab1_113550056/lab1_113550056.srcs/sim_1/new/SeqMultiplier_tb.v,1757658479,verilog,,,,SeqMultiplier_tb,,,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Desktop/verilog/lab1_113550056/lab1_113550056.srcs/sources_1/new/FullAdder.v,1757657906,verilog,,C:/Users/User/Desktop/verilog/lab1_113550056/lab1_113550056.srcs/sim_1/new/FullAdder_tb.v,,FA_1bit;FullAdder,,,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Desktop/verilog/lab1_113550056/lab1_113550056.srcs/sources_1/new/SeqMultiplier.v,1757658367,verilog,,C:/Users/User/Desktop/verilog/lab1_113550056/lab1_113550056.srcs/sim_1/new/SeqMultiplier_tb.v,,SeqMultiplier,,,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,

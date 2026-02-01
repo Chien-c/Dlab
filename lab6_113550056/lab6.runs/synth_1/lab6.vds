@@ -1,0 +1,338 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Nov  1 12:26:57 2025
+# Process ID         : 12328
+# Current directory  : C:/Users/User/Desktop/verilog/lab6_for_student/lab6.runs/synth_1
+# Command line       : vivado.exe -log lab6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab6.tcl
+# Log file           : C:/Users/User/Desktop/verilog/lab6_for_student/lab6.runs/synth_1/lab6.vds
+# Journal file       : C:/Users/User/Desktop/verilog/lab6_for_student/lab6.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-V7B7DV4
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-14700
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 68294 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 72589 MB
+# Available Virtual  : 55677 MB
+#-----------------------------------------------------------
+source lab6.tcl -notrace
+Command: synth_design -top lab6 -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3388
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1181.211 ; gain = 491.371
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab6' [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:6]
+INFO: [Synth 8-6157] synthesizing module 'uart' [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/uart.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'uart' (0#1) [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/uart.v:31]
+INFO: [Synth 8-6157] synthesizing module 'divider' [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/divider.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'divider' (0#1) [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/divider.v:8]
+INFO: [Synth 8-226] default block is never used [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:158]
+INFO: [Synth 8-226] default block is never used [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:245]
+INFO: [Synth 8-6155] done synthesizing module 'lab6' (0#1) [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:6]
+WARNING: [Synth 8-3848] Net data[35] in module/entity lab6 does not have driver. [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:46]
+WARNING: [Synth 8-3848] Net data[36] in module/entity lab6 does not have driver. [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:46]
+WARNING: [Synth 8-3848] Net data[73] in module/entity lab6 does not have driver. [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:46]
+WARNING: [Synth 8-3848] Net data[74] in module/entity lab6 does not have driver. [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:46]
+WARNING: [Synth 8-3848] Net data[111] in module/entity lab6 does not have driver. [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:46]
+WARNING: [Synth 8-3848] Net data[112] in module/entity lab6 does not have driver. [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/sources_1/new/lab6.v:46]
+WARNING: [Synth 8-3917] design lab6 has port usr_led[2] driven by constant 0
+WARNING: [Synth 8-3917] design lab6 has port usr_led[1] driven by constant 0
+WARNING: [Synth 8-3917] design lab6 has port usr_led[0] driven by constant 0
+WARNING: [Synth 8-7129] Port usr_btn[3] in module lab6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[2] in module lab6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[1] in module lab6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[0] in module lab6 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1300.590 ; gain = 610.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1300.590 ; gain = 610.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1300.590 ; gain = 610.750
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1300.590 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/constrs_1/new/lab6.xdc]
+Finished Parsing XDC File [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/constrs_1/new/lab6.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/User/Desktop/verilog/lab6_for_student/lab6.srcs/constrs_1/new/lab6.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab6_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab6_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1369.859 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1369.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1369.859 ; gain = 680.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1369.859 ; gain = 680.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1369.859 ; gain = 680.020
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'divider'
+INFO: [Synth 8-802] inferred FSM for state register 'P_reg' in module 'lab6'
+INFO: [Synth 8-802] inferred FSM for state register 'Q_reg' in module 'lab6'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                    CALC |                               01 |                               01
+                  FINISH |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'divider'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             S_UART_IDLE |                               00 |                               00
+             S_UART_WAIT |                               01 |                               01
+             S_UART_SEND |                               10 |                               10
+             S_UART_INCR |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Q_reg' using encoding 'sequential' in module 'lab6'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             S_MAIN_INIT |                         00000010 |                              000
+          S_MAIN_PROMPT1 |                         10000000 |                              001
+        S_MAIN_READ_NUM1 |                         01000000 |                              010
+          S_MAIN_PROMPT2 |                         00100000 |                              011
+        S_MAIN_READ_NUM2 |                         00010000 |                              100
+            S_MAIN_ERROR |                         00000001 |                              111
+           S_MAIN_DIVIDE |                         00001000 |                              101
+            S_MAIN_REPLY |                         00000100 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'P_reg' using encoding 'one-hot' in module 'lab6'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1369.859 ; gain = 680.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   16 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 4     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 9     
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 40    
+	                7 Bit    Registers := 4     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   3 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 2     
+	   3 Input   16 Bit        Muxes := 3     
+	   4 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 4     
+	   8 Input   11 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 13    
+	   5 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 8     
+	   3 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 4     
+	   4 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   3 Input    5 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 4     
+	   8 Input    3 Bit        Muxes := 1     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 11    
+	   3 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 16    
+	   8 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 9     
+	   6 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design lab6 has port usr_led[2] driven by constant 0
+WARNING: [Synth 8-3917] design lab6 has port usr_led[1] driven by constant 0
+WARNING: [Synth 8-3917] design lab6 has port usr_led[0] driven by constant 0
+WARNING: [Synth 8-7129] Port usr_btn[3] in module lab6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[2] in module lab6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[1] in module lab6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[0] in module lab6 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1447.414 ; gain = 757.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1502.359 ; gain = 812.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1714.172 ; gain = 1024.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1732.516 ; gain = 1042.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1865.430 ; gain = 1175.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1865.430 ; gain = 1175.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1865.430 ; gain = 1175.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1865.430 ; gain = 1175.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1865.430 ; gain = 1175.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1865.430 ; gain = 1175.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    27|
+|3     |LUT1   |     5|
+|4     |LUT2   |   109|
+|5     |LUT3   |    48|
+|6     |LUT4   |    97|
+|7     |LUT5   |    81|
+|8     |LUT6   |   144|
+|9     |FDCE   |    87|
+|10    |FDRE   |   176|
+|11    |FDSE   |    11|
+|12    |IBUF   |     3|
+|13    |OBUF   |     5|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1865.430 ; gain = 1175.590
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1865.430 ; gain = 1106.320
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1865.430 ; gain = 1175.590
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1874.594 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1878.277 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5ac90eb9
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1878.277 ; gain = 1376.219
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1878.277 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/User/Desktop/verilog/lab6_for_student/lab6.runs/synth_1/lab6.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file lab6_utilization_synth.rpt -pb lab6_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  1 12:27:30 2025...

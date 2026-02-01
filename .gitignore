@@ -1,0 +1,10 @@
+# Vivado 忽略清單
+*.jou
+*.log
+*.rpt
+*.dcp
+*.bit
+*.wdb
+*.str
+.Xil/
+*.pb
